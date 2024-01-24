@@ -39,6 +39,7 @@ export default function App() {
   useEffect(
     function () {
       localStorage.setItem("watched", JSON.stringify(watched));
+      // let watchedstyored = localStorage.getItem("watched");
     },
     [watched]
   );
